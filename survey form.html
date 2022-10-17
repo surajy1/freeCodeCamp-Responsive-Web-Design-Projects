@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Kindly take your time to fill out the programming preference form.</p>
+    <header>
+    <form id="survey-form">
+      <div>
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+      </div>
+      <div>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+      </div>
+      <div>
+      <label id="number-label">Age(optional): <input type="number" id="number" min="13" max="120" placeholder="Your age"></label>
+      </div>
+      <div>
+      <label>Select your operating system:
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="Windows">Windows</option>
+          <option value="iOS">iOS</option>
+        </select>
+      </label>
+      </div>
+      <div>
+        <label>Which programming language do you use the most? <input type="radio" value="javascript" name="language" checked> Javascript
+      </label>
+      <label>
+        <input type="radio" value="c++" name="language"> C++
+      </label>
+      <label>
+        <input type="radio" value="python" name="language"> Python
+      </label>
+      </div>
+      <div>
+        <label> Which stack would you like work in? <input type ="checkbox" name="frontend" value="frontend"> Frontend
+        </label>
+        <label>
+          <input type ="checkbox" name="backend" value="backend"> Backend
+        </label>
+        <label>
+          <input type ="checkbox" name="fullstack" value="fullstack"> Fullstack
+        </label>
+      </div>
+      <div>
+        <label>Provide your comments or suggestions:
+          <textarea name="comment" rows="3" cols="30" placeholder="I like to code because..."></textarea></label>
+      </div>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
