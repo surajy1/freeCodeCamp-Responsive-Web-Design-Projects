@@ -1,0 +1,50 @@
+body{
+  background: #AEDBCE;
+  font-family: sans-serif;
+}
+
+header{
+  text-align: center;
+  margin-top: 10px;
+}
+
+figure{
+  border: thin #635666 solid;
+  border-radius: 2px;
+  max-width: 440px;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+}
+
+img{
+  display: block;
+  flex-flow: column;
+  max-width: 100%;
+  height: auto;
+  margin: -2px auto;
+}
+
+figcaption{
+  text-align: center;
+  font: italic 15px "Arial";
+  margin-top: 1px;
+}
+
+.intro{
+  
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
+  margin: -2px;
+}
+
+.content{
+  padding: 2px 3rem;
+  margin: 1rem;
+}
+
+p.quotes{
+  font-style: italic;
+}
