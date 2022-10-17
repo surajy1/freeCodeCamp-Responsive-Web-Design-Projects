@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tribute page for Steve Jobs" />
+    <title id="title">Steve Jobs - Tribute Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+    
+    <body>
+      <header>
+        <h1>Steve Jobs</h1>
+      </header>
+      <main id="main">
+        <div id="img-div">
+          <figure id="img-div">
+            <img src="https://addicted2success.com/wp-content/uploads/2017/11/10-Things-We-Can-Learn-From-the-Incredible-Steve-Jobs.jpg" id="image" caption="Steve Jobs" />
+            <figcaption id="img-caption">Steve Jobs (1955-2011)</figcaption>
+            </figure>
+        </div>
+        <div class="content">
+        <div class="intro" id="tribute-info">
+          <p>
+            Steve Jobs was the founder and CEO of Apple Inc. - one of the biggest IT companies in the world.
+          </p>
+          <p>Steve Jobs is widely recognized as a pioneer of microcomputer revolution of the 1970s, along with Apple co-founder Steve Wozniak.</p>
+          <a href="https://www.apple.com/in/stevejobs/" id="tribute-link" target="_blank">Remembring Steve</a>
+        </div>
+        <div>
+          <h3>Quotes:</h3>
+          <p class="quotes">“You can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future.”</p>
+          <p class="quotes">“Your time is limited, so don’t waste it living someone else’s life.”</p>
+          <p class="quotes">“Don’t let the noise of others’ opinions drown out your own inner voice.”</p>
+        </div>
+        </div>
+      </main>
+    </body>
+</html>
